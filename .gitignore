@@ -1,15 +1,9 @@
 applicationhost.config
-.vs/BuilderDesignPattern/v16
+BuilderDesignPattern/BuilderDesignPattern/.vs/BuilderDesignPattern/v16
 packages
 
 # all bin folders
 bin
 
 #obj/Debug
-UnitTestingWebApi.API/obj/Debug
-UnitTestingWebApi.API.Core/obj/Debug
-UnitTestingWebApi.Data/obj/Debug
-UnitTestingWebApi.Data/obj/Debug
-UnitTestingWebApi.Domain/obj/Debug
-UnitTestingWebApi.Services/obj/Debug
-UnitTestingWebApi.Tests/obj/Debug
+BuilderDesignPattern/*/*/obj/Debug
