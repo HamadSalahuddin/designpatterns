@@ -17,9 +17,11 @@ namespace BuilderDesignPattern
 
         public void BuildStockReport()
         {
-            _productStockReportBuilder.BuildHeader();
-            _productStockReportBuilder.BuildBody();
-            _productStockReportBuilder.BuildFooter();
+            // Fluent build design pattern;
+            _productStockReportBuilder
+                .BuildHeader()
+                .BuildBody()
+                .BuildFooter();
         }
     }
 }
