@@ -8,3 +8,13 @@ bin
 #obj/Debug
 BuilderDesignPattern/*/*/obj/Debug
 BuilderDesignPattern/*/obj/Debug
+BuilderDesignPattern/BuilderDesignPattern/OpenAndClosePrinciple/obj/OpenAndClosePrinciple.csproj.nuget.dgspec.json
+BuilderDesignPattern/BuilderDesignPattern/OpenAndClosePrinciple/obj/OpenAndClosePrinciple.csproj.nuget.g.props
+BuilderDesignPattern/BuilderDesignPattern/OpenAndClosePrinciple/obj/OpenAndClosePrinciple.csproj.nuget.g.targets
+BuilderDesignPattern/BuilderDesignPattern/OpenAndClosePrinciple/obj/project.assets.json
+BuilderDesignPattern/BuilderDesignPattern/OpenAndClosePrinciple/obj/project.nuget.cache
+BuilderDesignPattern/BuilderDesignPattern/SingleResponsibilityPrinciple/obj/project.assets.json
+BuilderDesignPattern/BuilderDesignPattern/SingleResponsibilityPrinciple/obj/project.nuget.cache
+BuilderDesignPattern/BuilderDesignPattern/SingleResponsibilityPrinciple/obj/SingleResponsibilityPrinciple.csproj.nuget.dgspec.json
+BuilderDesignPattern/BuilderDesignPattern/SingleResponsibilityPrinciple/obj/SingleResponsibilityPrinciple.csproj.nuget.g.props
+BuilderDesignPattern/BuilderDesignPattern/SingleResponsibilityPrinciple/obj/SingleResponsibilityPrinciple.csproj.nuget.g.targets
