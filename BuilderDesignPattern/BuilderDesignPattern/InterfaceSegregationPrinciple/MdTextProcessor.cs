@@ -1,9 +1,4 @@
-﻿using static System.Net.Mime.MediaTypeNames;
-using System.Net.NetworkInformation;
-using SingleResponsibilityPrinciple;
-using InterfaceSegregationPrinciple;
-
-namespace OpenAndClosedPrinciple;
+﻿using InterfaceSegregationPrinciple;
 
 public class MdTextProcessor : TextProcessor, IMdTextProcessor
 {

@@ -1,6 +1,7 @@
-﻿namespace SingleResponsibilityPrinciple
+﻿
+namespace InterfaceSegregationPrinciple;
 {
-    public class FileProcessor
+    public class FileProcessor : IFileProcessor
     {
         private readonly string fullFilePath;
         public FileProcessor(string fullFilePath)
