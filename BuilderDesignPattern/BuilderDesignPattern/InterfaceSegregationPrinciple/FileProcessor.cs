@@ -1,6 +1,6 @@
 ﻿
 namespace InterfaceSegregationPrinciple;
-{
+
     public class FileProcessor : IFileProcessor
     {
         private readonly string fullFilePath;
@@ -26,4 +26,4 @@ namespace InterfaceSegregationPrinciple;
             file.Write(text);
         }
     }
-}
+
