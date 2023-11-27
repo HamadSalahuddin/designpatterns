@@ -5,16 +5,8 @@ namespace SingleResponsibilityPrinciple
 {
     public class TextProcessor
     {
-        private readonly FileProcessor fileProcessor;
-
-        public TextProcessor(FileProcessor fileProcessor)
+        public virtual string ConvertText(string inputText)
         {
-            this.fileProcessor = fileProcessor;
-        }
-
-        public void ConvertText()
-        {
-            var inputText = fileProcessor.ReadAllText();
             var paragraphs = Regex.Split(inputText, @"(\r\n?|\n)")
                 .Where(p => p.Any(char.IsLetterOrDigit));
 
@@ -28,7 +20,7 @@ namespace SingleResponsibilityPrinciple
             }
 
             sb.AppendLine("<br/>");
-            fileProcessor.WriteToFile(sb.ToString());
+            return sb.ToString();
         }
     }
 }
