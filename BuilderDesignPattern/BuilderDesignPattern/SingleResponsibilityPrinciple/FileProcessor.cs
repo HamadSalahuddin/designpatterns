@@ -1,6 +1,6 @@
 ﻿namespace SingleResponsibilityPrinciple
 {
-    public class FileProcessor
+    public class FileProcessor: IFileProcessor
     {
         private readonly string fullFilePath;
 
