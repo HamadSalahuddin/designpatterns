@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace SingleResponsibilityPrinciple
 {
-    public class TextProcessor
+    public class TextProcessor: ITextProcessor
     {
         public virtual string ConvertText(string inputText)
         {

@@ -1,6 +1,6 @@
 ﻿namespace SingleResponsibilityPrinciple
 {
-    public class MdTextProcessor: TextProcessor
+    public class MdTextProcessor: TextProcessor, IMdTextProcessor
     {
         private readonly Dictionary<string, (string, string)> tagsToReplace;
 
