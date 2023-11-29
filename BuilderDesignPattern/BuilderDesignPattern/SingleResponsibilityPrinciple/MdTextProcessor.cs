@@ -9,7 +9,7 @@
             this.tagsToReplace = tagsToReplace;
         }
 
-        public override string ConvertText(string inputText)
+        public string ConvertMdText(string inputText)
         {
             var processedText = base.ConvertText(inputText);
             foreach (var key in tagsToReplace.Keys)
