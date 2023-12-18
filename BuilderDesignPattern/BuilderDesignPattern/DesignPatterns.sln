@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDesignPatternGuru", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeDesignPatternGuru", "PrototypeDesignPatternGuru\PrototypeDesignPatternGuru.csproj", "{5A2A0D92-7E0B-45A3-814A-46D34FE8F810}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDesignPatternGuru", "SingletonDesignPatternGuru\SingletonDesignPatternGuru.csproj", "{03919FA9-B6EB-4964-B8A1-DD7CE2346F9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{5A2A0D92-7E0B-45A3-814A-46D34FE8F810}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A2A0D92-7E0B-45A3-814A-46D34FE8F810}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A2A0D92-7E0B-45A3-814A-46D34FE8F810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03919FA9-B6EB-4964-B8A1-DD7CE2346F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03919FA9-B6EB-4964-B8A1-DD7CE2346F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03919FA9-B6EB-4964-B8A1-DD7CE2346F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03919FA9-B6EB-4964-B8A1-DD7CE2346F9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
