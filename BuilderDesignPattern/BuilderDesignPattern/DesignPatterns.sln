@@ -11,11 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryDesignPatternGuru", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryDesignPatternGuru", "AbstractFactoryDesignPatternGuru\AbstractFactoryDesignPatternGuru.csproj", "{5ACBAF5A-C4F2-4E71-80D9-96DA5DA588E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDesignPatternGuru", "BuilderDesignPatternGuru\BuilderDesignPatternGuru.csproj", "{BC26ABFE-B395-49BE-973E-5EFAF2D49343}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderDesignPatternGuru", "BuilderDesignPatternGuru\BuilderDesignPatternGuru.csproj", "{BC26ABFE-B395-49BE-973E-5EFAF2D49343}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeDesignPatternGuru", "PrototypeDesignPatternGuru\PrototypeDesignPatternGuru.csproj", "{5A2A0D92-7E0B-45A3-814A-46D34FE8F810}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypeDesignPatternGuru", "PrototypeDesignPatternGuru\PrototypeDesignPatternGuru.csproj", "{5A2A0D92-7E0B-45A3-814A-46D34FE8F810}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDesignPatternGuru", "SingletonDesignPatternGuru\SingletonDesignPatternGuru.csproj", "{03919FA9-B6EB-4964-B8A1-DD7CE2346F9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonDesignPatternGuru", "SingletonDesignPatternGuru\SingletonDesignPatternGuru.csproj", "{03919FA9-B6EB-4964-B8A1-DD7CE2346F9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterDesignPattern", "AdapterDesignPattern\AdapterDesignPattern.csproj", "{4747674E-338D-4307-91F8-7A2B07DF7516}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{03919FA9-B6EB-4964-B8A1-DD7CE2346F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03919FA9-B6EB-4964-B8A1-DD7CE2346F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03919FA9-B6EB-4964-B8A1-DD7CE2346F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4747674E-338D-4307-91F8-7A2B07DF7516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4747674E-338D-4307-91F8-7A2B07DF7516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4747674E-338D-4307-91F8-7A2B07DF7516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4747674E-338D-4307-91F8-7A2B07DF7516}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
